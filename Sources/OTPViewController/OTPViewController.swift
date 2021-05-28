@@ -418,7 +418,7 @@ open class OTPViewController: UIViewController {
     ////////////////////////////////////////////////////////////////
 
     
-    @objc public init(heading: String = "One Time Password",
+    @objc public init(heading: String,
                        numberOfOtpCharacters: Int,
                       delegate: OTPViewControllerDelegate? = nil) {
         self.delegate = delegate
