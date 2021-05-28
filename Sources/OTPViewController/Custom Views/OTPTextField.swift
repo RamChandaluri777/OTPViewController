@@ -34,7 +34,7 @@ import UIKit
 
 final class OTPTextField: UITextField {
     
-    weak var menuActionDelegate: BJMenuActionDelegate? = nil
+    weak var menuActionDelegate: MenuActionDelegate? = nil
     
     override func caretRect(for position: UITextPosition) -> CGRect {
         return .init(origin: .init(x: self.bounds.midX, y: self.bounds.origin.y), size: .init(width: 0.1, height: 0.1))

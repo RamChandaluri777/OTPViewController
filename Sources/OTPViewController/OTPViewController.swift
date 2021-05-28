@@ -28,7 +28,7 @@
 
 import UIKit
 
-@objc public protocol BJOTPViewControllerDelegate {
+@objc public protocol OTPViewControllerDelegate {
     /**
      * Use this delegate method to make API calls, show loading animation in `viewController`, do whatever you want.
      * You can dismiss (if presented) the `viewController` when you're done.
@@ -40,7 +40,8 @@ import UIKit
      *
      * - Author: Badhan Ganesh
      */
-    @objc func authenticate(_ otp: String, from viewController: BJOTPViewController)
+    @objc func authenticate(_ otp: String, from viewController:
+                                OTPViewController)
     
     /**
      * This method will get called whenever the otp view controller is closed, either by popping, dismissing, or tapping the close button.
@@ -51,7 +52,7 @@ import UIKit
      *
      * - Author: Badhan Ganesh
      */
-    @objc func didClose(_ viewController: BJOTPViewController)
+    @objc func didClose(_ viewController: OTPViewController)
     
     /**
      * This delegate method will get called when the footer button at the bottom is tapped. Use this to resend one time code from the server
@@ -63,7 +64,7 @@ import UIKit
      *
      * - Author: Badhan Ganesh
      */
-    @objc func didTap(footer button: UIButton, from viewController: BJOTPViewController)
+    @objc func didTap(footer button: UIButton, from viewController: OTPViewController)
 }
 
 /**
