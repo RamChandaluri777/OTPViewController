@@ -418,8 +418,8 @@ open class OTPViewController: UIViewController {
     ////////////////////////////////////////////////////////////////
 
     
-    @objc public init(withHeading heading: String = "One Time Password",
-                      withNumberOfCharacters numberOfOtpCharacters: Int,
+    @objc public init(heading: String = "One Time Password",
+                       numberOfOtpCharacters: Int,
                       delegate: OTPViewControllerDelegate? = nil) {
         self.delegate = delegate
         self.headingString = heading
