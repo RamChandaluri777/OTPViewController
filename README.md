@@ -1,8 +1,5 @@
 # OTPViewController
 
-![OTPViewController Banner](banner.png)
-
-
 
 A very simple and neat-looking view controller that lets you type in OTP's quick and easy.
 
@@ -41,16 +38,11 @@ A very simple and neat-looking view controller that lets you type in OTP's quick
 
 1. In Xcode project, go to **File** → **Swift Packages** → **Add Package Dependency...**
 
-2. Paste the repo URL: https://github.com/BadhanGanesh/BJOTPViewController.git
+2. Paste the repo URL: https://github.com/RamChandaluri777/OTPViewController
 
 3. Follow onscreen instructions for choosing the package options and targets you want to add the dependency to - but make sure you always consider choosing the latest version for the best experience - and click **Finish** when you're done.
 
 
-## Screenshots
-
-![App Screens 1](app_screens_1.png)
------
-![App Screens 2](app_screens_2.png)
 
 
 ## Usage
